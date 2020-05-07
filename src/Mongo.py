@@ -24,7 +24,7 @@ class Mongo:
             return x
         else:
             print(f"placa {obj.placa} duplicated")
-            return {"status": "duplicated"}
+            raise NameError(f"Carro com a placa {obj.placa} Duplicado") 
 
     def query(self, myquery):
         #myquery = { "address": "Park Lane 38" }
