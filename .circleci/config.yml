@@ -2,7 +2,7 @@
 version: 2
 jobs:
  environment:
-   IMAGE_NAME: leonardomontero/carros-case
+   IMAGE_NAME: "leonardomontero/carros-case"
  build:
    machine: true
    steps:
